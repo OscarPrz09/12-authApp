@@ -1,0 +1,14 @@
+<h1>Dashboard</h1>
+<hr>
+
+<p>
+    Esta paginá sólo funciona si estas autenticado.
+</p>
+
+<h4>User Info</h4>
+<pre> {{ usuario | json }} </pre>
+
+
+<button (click)="logout()"> 
+    Cerrar Sesión
+</button>
